@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car 2: 1963 Corvette</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/Users/kev/Desktop/1963_Pininfarina_Rondine_Corvette.jpg') }}">
+</head>
+<body>
+    <h1>1963 Chevrolet Corvette Sting Ray</h1>
+    <img src="{{ url_for('static', filename='1963_Pininfarina_Rondine_Corvette.jpg') }}" alt="1963 Corvette Sting Ray" style="width:70%;">
+    <p>The 1963 Corvette Sting Ray, known for its sleek design and split-window coupe, is a highly sought-after classic car.</p>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>

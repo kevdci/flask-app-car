@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Car Collection</title>
+</head>
+<body>
+    <h1>Welcome to the Vintage Car Collection</h1>
+    <p>Discover the beauty of classic cars.</p>
+
+    <h2>Our Featured Cars:</h2>
+    <img src="{{ url_for('static', filename='1963_Pininfarina_Rondine_Corvette.jpg') }}" alt="1963 Pininfarina Rondine Corvette">
+    <img src="{{ url_for('static', filename='mustang 1967.jpeg') }}" alt="1967 Mustang">
+
+    <a href="{{ url_for('car1') }}">View Car 1</a>
+    <a href="{{ url_for('car2') }}">View Car 2</a>
+    <a href="{{ url_for('contact') }}">Contact Us</a>
+    <a href="{{ url_for('home') }}">Redirect to Homepage</a>
+</body>
+</html>
+
+
+
